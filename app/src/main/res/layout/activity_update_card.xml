@@ -5,10 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="@color/light_blue"
-    android:gravity="center"
     tools:context=".UpdateCard">
 
 
@@ -71,7 +71,7 @@
             android:id="@+id/update_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/blue"
+            android:backgroundTint="@color/light_blue"
             android:fontFamily="@font/actor"
             android:text="Update"
             android:textColor="@color/black"
