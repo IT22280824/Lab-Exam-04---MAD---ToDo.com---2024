@@ -25,9 +25,10 @@ object DataObject {
     }
 
 
-    fun updateData(pos: Int, title: String, priority: String, toString: String){
+    fun updateData(pos: Int, title: String, priority: String, description: String){
         listdata[pos].title = title
         listdata[pos].priority = priority
+        listdata[pos].description = description
     }
 
 }
